@@ -3,11 +3,14 @@
 
 The tutorial below shows you how to use Wget to download individual files and whole websites using the HTTP and HTTPS protocols. 
 
+Wget uses a process known as [recursive retrieval](https://www.gnu.org/software/wget/manual/html_node/Recursive-Download.html). This means that it will follow the links to other directories and subdirectories and download these files as well. Its default is limited to following five links from the original file, but you can limit or expand this number as you will see in this tutorial. 
+
 > [!NOTE] 
 > A Note on Research Ethics
+>
 > While the `wget` command allows you to download files and websites from the internet, remember that this material has been created (and may be owned) by other people. Before you download other people's work, you should make sure that you have their permission. Some sites make their materials available freely for use (e.g. through Creative Commons licenses). For those sites for which the license is unclear, you should check with the owner. 
 
-Wget uses a process known as [recursive retrieval](https://www.gnu.org/software/wget/manual/html_node/Recursive-Download.html). This means that it will follow the links to other directories and subdirectories and download these files as well. Its default is limited to following five links from the original file, but you can limit or expand this number as you will see in this tutorial. 
+
 
 # Installing Wget
 
